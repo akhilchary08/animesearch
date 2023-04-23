@@ -1,0 +1,78 @@
+body {
+  background-color: #202125;
+}
+p {
+  color: #ffffff;
+}
+/* animeList css */
+
+.animeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* animeItem css */
+
+.animeItem {
+  display: grid;
+  justify-self: center;
+  width: 200px;
+  justify-content: center;
+  background-color: #2a2c31;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.animeItem:hover {
+  box-shadow: 6px 10px 72px -12px rgba(202, 233, 98, 0.8);
+}
+
+.animeImage {
+  height: 300px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.title {
+  justify-content: center;
+  margin: 0px;
+  color: #cae962;
+}
+
+.status {
+  margin: 0px;
+}
+
+/* searchInput */
+
+.input {
+  border: none;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  padding: 5px 10px;
+  margin-left: 37%;
+  margin-bottom: 2%;
+}
+
+.submitButton {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: rgb(202, 233, 98);
+  color: #000;
+  border: none;
+  margin-left: 10px;
+  height: 40px;
+}
+
+.animeForm {
+  height: fit-content;
+}
+
+.mainTitle{
+  margin-left: 46%;
+  color: rgb(202, 233, 98);
+  font-size: 40px;
+}
